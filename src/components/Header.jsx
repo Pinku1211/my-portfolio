@@ -2,7 +2,7 @@ import React from 'react';
 import CV from '../assets/Task-2.pdf'
 import ButtonOutline from './shared/ButtonOutline';
 import ButtonFill from './shared/ButtonFill';
-import Person from '../assets/person.png'
+import p from '../assets/P.png'
 import HeaderSocials from './HeaderSocials';
 import { FaChevronDown } from "react-icons/fa";
 
@@ -21,7 +21,7 @@ const Header = () => {
             <div className='flex justify-center md:justify-between items-center w-full'>
                 <HeaderSocials></HeaderSocials>
                 <div className='bg-gradient-to-b from-myColor to-[#014154] rounded-t-full pt-4'>
-                    <img className='h-[22rem] w-[18rem]' src={Person} alt="Person" />
+                    <img className='h-[22rem] w-[24rem]' src={p} alt="Person" />
                 </div>
                 <div className='hidden md:block'>
                     <a href="#contact" className='text-myColor  font-thin'><FaChevronDown></FaChevronDown></a>   

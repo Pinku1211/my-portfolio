@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from './shared/SectionTitle';
-import person from '../assets/me2.jpg';
+import person from '../assets/me.jpg';
 import { LuBookOpenCheck } from "react-icons/lu";
 import ButtonFill from './shared/ButtonFill';
 import { FaFolder } from "react-icons/fa";
@@ -10,7 +10,7 @@ const About = () => {
         <div id='about' className='min-h-[100vh] pt-16'>
             <SectionTitle title='About Me' subtitle='Get to Know'></SectionTitle>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-12'>
-                <div className='bg-myColor rounded-xl w-3/4 mx-auto'>
+                <div className='bg-myColor rounded-xl w-1/2 mx-auto'>
                     <img className='h-full w-full rounded-xl transform rotate-12 hover:rotate-0 duration-75' src={person} alt="person" />
                 </div>
                 <div className='flex flex-col justify-between'>
@@ -21,7 +21,7 @@ const About = () => {
                          hover:border-2 hover:bg-opacity-60 hover:border-myColor text-center flex flex-col items-center justify-center p-6 space-y-2'>
                             <LuBookOpenCheck className='text-myColor'></LuBookOpenCheck>
                             <h1 className='font-semibold'>Experience</h1>
-                            <small>3+ Years Working Experience</small>
+                            <small>+1 Years of Learning Experience</small>
                         </article>
                         <article className='w-full rounded-lg bg-[#092635]
                         border-2
