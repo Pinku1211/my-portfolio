@@ -16,7 +16,7 @@ function App() {
   return (
     <div className='min-h-screen'>
       <div className='w-3/4 mx-auto text-white flex flex-col justify-center items-center'>
-        <Header></Header>
+        {/* <Header></Header> */}
         <Navbar></Navbar>
         <About></About>
         <Experience></Experience>

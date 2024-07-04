@@ -12,9 +12,9 @@ const Header = () => {
             <div className='flex flex-col items-center'>
                 <h1 className='text-lg font-semibold'>Hello, I'm</h1>
                 <h1 className='text-4xl font-semibold my-3'>Pinku Sarker</h1>
-                <small>Front End Developer</small>
+                {/* <small>Front End Developer</small> */}
                 <div className='flex items-center gap-4 my-10'>
-                    <a href={CV} download><ButtonOutline text='Download CV'></ButtonOutline></a>
+                    {/* <a href={CV} download><ButtonOutline text='Download CV'></ButtonOutline></a> */}
                     <a href='#contact'><ButtonFill text="Contact Me"></ButtonFill></a>
                 </div>
             </div>
