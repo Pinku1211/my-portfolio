@@ -36,6 +36,16 @@ const HomeNav = () => {
                             Blog
                         </NavLink>
                     </div>
+                    <div className='text-lg'>
+                        <NavLink
+                            to="/contact"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-myColor underline" : ""
+                            }
+                        >
+                            Contact
+                        </NavLink>
+                    </div>
                 </nav>
             </div>
         </div>

@@ -26,6 +26,7 @@ const Contact = () => {
                 console.log(error.text);
             });
     };
+    
 
     return (
         <div id='contact' className='min-h-[100vh] w-full py-16'>

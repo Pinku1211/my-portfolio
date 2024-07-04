@@ -15,7 +15,7 @@ const Header = () => {
                 {/* <small>Front End Developer</small> */}
                 <div className='flex items-center gap-4 my-10'>
                     {/* <a href={CV} download><ButtonOutline text='Download CV'></ButtonOutline></a> */}
-                    <a href='#contact'><ButtonFill text="Contact Me"></ButtonFill></a>
+                    {/* <a href='#contact'><ButtonFill text="Contact Me"></ButtonFill></a> */}
                 </div>
             </div>
             <div className='flex justify-center md:justify-between items-center w-full'>
