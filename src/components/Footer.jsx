@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer footer-center py-10 bg-[#092635] text-base-content">
             <h1 className='text-myColor text-2xl font-bold'>Pinku Sarker</h1>
-            <nav className="grid grid-flow-col gap-2">
+            <nav className="grid grid-cols-3 md:grid-flow-col lg:grid-flow-col gap-2">
                 <a href='#' className="link link-hover">Home</a>
                 <a href='#about' className="link link-hover">About</a>
                 <a href='#experience' className="link link-hover">Experience</a>

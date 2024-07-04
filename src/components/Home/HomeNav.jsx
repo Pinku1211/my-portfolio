@@ -3,52 +3,50 @@ import { NavLink } from 'react-router-dom';
 
 const HomeNav = () => {
     return (
-        <div className='flex flex-col md:flex-row lg:flex-row justify-between items-center gap-4 py-6  mx-2 lg:w-[1300px] lg:mx-auto'>
-            <div>
-                <nav className='flex gap-4 lg:gap-6'>
-                    <div className='text-lg hover:bg-none'>
+            <div className='flex flex-col md:flex-row lg:flex-row justify-center md:justify-end items-center gap-4 py-6  mx-2'>
+                <div className='flex gap-4 lg:gap-6'>
+                    <div className='text-sm hover:text-myColor'>
                         <NavLink
                             to="/"
                             className={({ isActive, isPending }) => 
-                                isPending ? "pending" : isActive ? "text-myColor underline" : ""
+                                isPending ? "pending" : isActive ? "text-myColor" : ""
                             }
                         >
                             Home
                         </NavLink>
                     </div>
-                    <div className='text-lg'>
+                    <div className='text-sm hover:text-myColor'>
                         <NavLink
                             to="/portfolio"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-myColor underline" : ""
+                                isPending ? "pending" : isActive ? "text-myColor" : ""
                             }
                         >
-                            Portfolio
+                            WD-Portfolio
                         </NavLink>
                     </div>
-                    <div className='text-lg'>
+                    <div className='text-sm hover:text-myColor'>
                         <NavLink
                             to="/blog"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-myColor underline" : ""
+                                isPending ? "pending" : isActive ? "text-myColor" : ""
                             }
                         >
                             Blog
                         </NavLink>
                     </div>
-                    <div className='text-lg'>
+                    <div className='text-sm hover:text-myColor'>
                         <NavLink
                             to="/contact"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-myColor underline" : ""
+                                isPending ? "pending" : isActive ? "text-myColor" : ""
                             }
                         >
                             Contact
                         </NavLink>
                     </div>
-                </nav>
+                </div>
             </div>
-        </div>
     );
 };
 

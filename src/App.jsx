@@ -24,7 +24,6 @@ function App() {
         <Education></Education>
         <Contact></Contact>  
       </div>
-      <Footer></Footer>
     </div>
   )
 }

@@ -1,27 +1,19 @@
 import React from 'react';
-import CV from '../assets/Task-2.pdf'
-import ButtonOutline from './shared/ButtonOutline';
-import ButtonFill from './shared/ButtonFill';
-import p from '../assets/P.png'
+import p from '../assets/p-4.png'
 import HeaderSocials from './HeaderSocials';
 import { FaChevronDown } from "react-icons/fa";
 
 const Header = () => {
     return (
-        <header className='flex flex-col justify-between items-center min-h-screen w-full pt-16'>
+        <header className='lg:h-[627px] flex flex-col gap-6 lg:justify-between items-center w-3/4 mx-auto pt-4 lg:pt-10'>
             <div className='flex flex-col items-center'>
                 <h1 className='text-lg font-semibold'>Hello, I'm</h1>
-                <h1 className='text-4xl font-semibold my-3'>Pinku Sarker</h1>
-                {/* <small>Front End Developer</small> */}
-                <div className='flex items-center gap-4 my-10'>
-                    {/* <a href={CV} download><ButtonOutline text='Download CV'></ButtonOutline></a> */}
-                    {/* <a href='#contact'><ButtonFill text="Contact Me"></ButtonFill></a> */}
-                </div>
+                <h1 className='text-2xl md:text-3xl lg:text-4xl font-semibold'>Pinku Sarker</h1>
             </div>
             <div className='flex justify-center md:justify-between items-center w-full'>
                 <HeaderSocials></HeaderSocials>
                 <div className='bg-gradient-to-b from-myColor to-[#014154] rounded-t-full pt-4'>
-                    <img className='h-[22rem] w-[24rem]' src={p} alt="Person" />
+                    <img className='h-[22rem] w-[22rem] pt-8' src={p} alt="Person" />
                 </div>
                 <div className='hidden md:block'>
                     <a href="#contact" className='text-myColor  font-thin'><FaChevronDown></FaChevronDown></a>   

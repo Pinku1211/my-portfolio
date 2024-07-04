@@ -29,7 +29,7 @@ const Contact = () => {
     
 
     return (
-        <div id='contact' className='min-h-[100vh] w-full py-16'>
+        <div id='contact' className='min-h-[627px] w-full py-16'>
             <SectionTitle title='Contact' subtitle='Get In Touch'></SectionTitle>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
                 <div className='grid grid-cols-1 lg:w-1/2 lg:mx-auto gap-8 overflow-hidden'>
