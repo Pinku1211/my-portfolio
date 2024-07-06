@@ -5,13 +5,15 @@ import './index.css'
 import { Toaster } from 'react-hot-toast';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './components/Home/Home.jsx'
-import Blog from './components/Blog/Blog.jsx';
 import Contact from './components/Contact.jsx';
 import MainLayout from './components/MainLayout.jsx/MainLayout.jsx';
+import Blogs from './components/Blog/Blogs.jsx';
+import ShowMore from './components/Blog/ShowMore.jsx';
 
 const router = createBrowserRouter([{
   path: "/",
   element: <MainLayout></MainLayout>,
+  errorElement: <Error></Error>,
   children: [
     {
       path: "/",
@@ -23,13 +25,18 @@ const router = createBrowserRouter([{
     },
     {
       path: "blog",
-      element: <Blog></Blog>
+      element: <Blogs></Blogs>
     },
     {
       path: "contact",
       element: <Contact></Contact>
+    },
+    {
+      path: '/showMore/:id',
+      element: <ShowMore></ShowMore>,
+      loader: () => fetch ("/posts.json")
     }
-  ]
+    ]
 
 }])
 

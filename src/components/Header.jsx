@@ -16,7 +16,7 @@ const Header = () => {
                     <img className='h-[22rem] w-[22rem] pt-8' src={p} alt="Person" />
                 </div>
                 <div className='hidden md:block'>
-                    <a href="#contact" className='text-myColor  font-thin'><FaChevronDown></FaChevronDown></a>   
+                    <a href="#footer" className='text-myColor  font-thin'><FaChevronDown></FaChevronDown></a>   
                 </div>
 
             </div>
