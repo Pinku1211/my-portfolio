@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const HomeNav = () => {
     return (
-            <div className='flex flex-col md:flex-row lg:flex-row justify-center md:justify-end items-center gap-4 py-6  mx-2'>
-                <div className='flex gap-4 lg:gap-6'>
+            <div className='flex flex-col md:flex-row lg:flex-row justify-center md:justify-between items-center mx-2'>
+                <img className='h-14' src={logo} alt="logo" />
+                <div className='flex flex-col md:flex-row lg:flex-row justify-center md:justify-end items-center gap-4 py-6  mx-2'>
                     <div className='text-sm hover:text-myColor'>
                         <NavLink
                             to="/"

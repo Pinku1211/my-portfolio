@@ -56,7 +56,7 @@ const Education = () => {
                         <div className='flex mt-4'>
                             <VscDebugBreakpointData className='mt-1 mr-2'></VscDebugBreakpointData>
                             <div>
-                                <h1 className='font-bold'>General Member!!!!!!!!!!!!!!!</h1>
+                                <h1 className='font-bold'>General Member</h1>
                                 <div className='flex items-center gap-2'>
                                     <GrOrganization></GrOrganization>
                                     <small>ILET Sports Club</small>
