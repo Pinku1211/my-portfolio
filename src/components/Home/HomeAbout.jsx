@@ -9,7 +9,7 @@ import p from '../../assets/me.jpg';
 
 const HomeAbout = () => {
     return (
-        <div className='min-h-screen pt-16'>
+        <div className='min-h-screen py-16'>
             <SectionTitle title={'About Me'} subtitle={'Know More'}></SectionTitle>
             <div className='flex flex-col lg:flex-row justify-between gap-10 mt-12'>
                 <div className='bg-myColor rounded-xl w-1/2 mx-auto'>

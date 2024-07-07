@@ -7,6 +7,7 @@ import { FaFolder } from "react-icons/fa";
 import ButtonOutline from './shared/ButtonOutline';
 import CV from '../assets/my_resume.pdf'
 import Certificate from '../assets/certificate_2.pdf'
+import { MdFileDownload } from "react-icons/md";
 
 const About = () => {
     return (
@@ -35,9 +36,9 @@ const About = () => {
                 </div>
                 <p className='my-4'>I am a junior web developer with a strong foundation in HTML, CSS, and JavaScript, built some projects with React, MongoDb. Passionate about transforming design concepts into functional websites, I thrive in collaborative environments. With a keen eye for detail and a commitment to staying updated on industry trends, I am eager to contribute my problem-solving skills to create dynamic and visually appealing web solutions.</p>
                 <div className='flex gap-4'>
-                    <a className='w-fit' href='#contact'><ButtonFill text='Contact Me'></ButtonFill></a>
-                    <a href={CV} download><ButtonOutline text='Download CV'></ButtonOutline></a>
-                    <a href={Certificate} download><ButtonOutline text='Download Certificate'></ButtonOutline></a>
+                    <a className='w-fit' href='#contact'><ButtonFill text='Contact'></ButtonFill></a>
+                    <a href={CV} download><ButtonOutline text={'Resume'}></ButtonOutline></a>
+                    <a href={Certificate} download><ButtonOutline text='Certificate'></ButtonOutline></a>
                 </div>
             </div>
         </div>

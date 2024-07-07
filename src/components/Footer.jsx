@@ -1,11 +1,13 @@
 import React from 'react';
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
 
     return (
         <footer id='footer' className="footer footer-center py-10 bg-[#092635] text-base-content">
+            <img className='h-12' src={logo} alt="logo" />
             <h1 className='text-myColor text-2xl font-bold'>Pinku Sarker</h1>
             <nav className="grid grid-cols-3 md:grid-flow-col lg:grid-flow-col gap-2">
                 <Link to={'/'}>Home</Link>
