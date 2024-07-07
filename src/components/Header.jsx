@@ -8,9 +8,9 @@ const Header = () => {
     return (
         <header className='lg:h-[627px] flex flex-col gap-6 lg:justify-between items-center w-3/4 mx-auto pt-4 lg:pt-10'>
             <div className='flex flex-col items-center'>
-                
                 <h1 className='text-lg font-semibold'>Hello, I'm</h1>
                 <h1 className='text-2xl md:text-3xl lg:text-4xl font-semibold'>Pinku Sarker</h1>
+                <small className='text-md md:text-lg lg:text-xl font-thin'>From Dhaka, Bangladesh</small>
             </div>
             <div className='flex justify-center md:justify-between items-center w-full'>
                 <HeaderSocials></HeaderSocials>

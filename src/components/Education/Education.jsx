@@ -15,7 +15,7 @@ import './Education.css'
 const Education = () => {
     return (
         <div id='education' className='min-h-[100vh] pt-16 w-full relative'>
-            <SectionTitle title='Education' subtitle='Know More'></SectionTitle>
+            <SectionTitle title='Education' subtitle=''></SectionTitle>
             <Swiper
                 pagination={true}
                 modules={[Pagination]}

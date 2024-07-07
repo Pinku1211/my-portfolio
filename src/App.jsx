@@ -21,7 +21,6 @@ function App() {
         <About></About>
         <Experience></Experience>
         <Services></Services>
-        <Education></Education>
         <Contact></Contact>  
       </div>
     </div>
